@@ -6,9 +6,9 @@
         xmlns:local="clr-namespace:WpfApp1"
         mc:Ignorable="d"
         
-        Title="MainWindow" Height="450" Width="800">
-    <Grid>        
-        <DockPanel  Name="DockPanel1"  LastChildFill="True">      
+        Title="MainWindow" Height="500" Width="800">
+    <Grid>
+              <DockPanel  Name="DockPanel1"  LastChildFill="True">      
             <Menu Height="23" Name="Menu1"  DockPanel.Dock="Top">                　　　　　　　　
                 <MenuItem Header="Menu1">                    　　　　　　　　　　
                     <MenuItem Header="H1" />                    　　　　　　　　　　
@@ -27,7 +27,7 @@
                 <StatusBarItem Content="S3" Name="S3"/>
             </StatusBar>
             <Viewbox Name="Viewbox1"  Stretch="Fill">
-                <Canvas Height="200" Name="Canvas1" Width="300" Background="#FF8EDE75">
+                <Canvas Height="500" Name="Canvas1" Width="800" Background="#FF8EDE75">
                     <Button Canvas.Left="43" Canvas.Top="40" Content="Button1" Height="37" Name="Button1" Width="87"  />
 
                     <Button Canvas.Left="43" Canvas.Top="80" Content="Button2" Height="37" Name="Button2" Width="87" />
@@ -35,7 +35,5 @@
                 </Canvas>
             </Viewbox>
         </DockPanel>
-
-
     </Grid>
 </Window>
